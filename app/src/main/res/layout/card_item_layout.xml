@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="12dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="6dp"
+    android:layout_height="wrap_content"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/cardviewImg"
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/textviewCard"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="28sp"
+            android:layout_toEndOf="@+id/cardviewImg"
+            android:text="Game title"
+            android:textSize="32sp"
+            android:textStyle="" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
